@@ -39675,7 +39675,24 @@
   "local_changes": {
     "deleted": [],
     "deleted_reftests": {},
-    "items": {},
+    "items": {
+      "testharness": {
+        "fetch/api/cors/cors-redirect-worker.html": [
+          {
+            "path": "fetch/api/cors/cors-redirect-worker.html",
+            "timeout": "long",
+            "url": "/fetch/api/cors/cors-redirect-worker.html"
+          }
+        ],
+        "fetch/api/cors/cors-redirect.html": [
+          {
+            "path": "fetch/api/cors/cors-redirect.html",
+            "timeout": "long",
+            "url": "/fetch/api/cors/cors-redirect.html"
+          }
+        ]
+      }
+    },
     "reftest_nodes": {}
   },
   "reftest_nodes": {
